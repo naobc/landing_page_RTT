@@ -26,10 +26,10 @@
   --color-Red-500: hsl(0, 100%, 63%);
   --color-White: hsl(0, 0%, 100%);
 
-  --font-Raleway: "Raleway";
-  --font-Open-Sans: "Open Sans";
+  --font-raleway: "Raleway", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
 }
 
-body{
-  @apply font-Open-Sans bg-gray-500 text-White
+body {
+  @apply font-open-sans bg-gray-500 text-white;
 }
